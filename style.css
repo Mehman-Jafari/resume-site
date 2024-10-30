@@ -1,0 +1,81 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614542048_39-p-fon-belii-tekstura-45.jpg);
+    padding: 80px 0;
+}
+h3{
+    font-size: 26px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.container{
+    width: 600px;
+    min-height: 700px;
+    border: 6px solid #fff;
+    margin: 0 auto;
+    background: #fff;
+}
+.header{
+    height: 150px;
+    display: flex;
+}
+.title-block{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    font-size: 26px;
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1625035892_5-phonoteka_org-p-brevna-oboi-krasivo-8.jpg) no-repeat center center / cover;
+    color: #fff;
+    margin-right: 6px;
+}
+.userpeac{
+    background: url(https://uprostim.com/wp-content/uploads/2021/05/image055-6.jpg) no-repeat center center / cover;
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+.nav ul{
+   background: rgb(206, 206, 206);
+    display: flex;
+    margin: 6px 0;
+}
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+    border-right: 2px solid #b1afaf ;
+    transition: background .3s ease
+    
+}
+.nav li a:hover{
+    background: rgb(184, 183, 183);
+}
+.content-wrraper{
+    display: flex;
+}
+.content{
+    width: 70%;
+}
+.sidebar{
+    width: 30%;
+    text-align: center;
+   
+}
+
+
+.skils li{
+  padding: 10px 0;
+    transition: transform .5s ease;
+}
+.skils li:hover{
+    transform: translateX(10px);
+}
+.footer{
+    text-align: center;
+    background: rgb(156, 156, 156);
+}
